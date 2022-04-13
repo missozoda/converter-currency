@@ -1,3 +1,7 @@
 input {
   outline: none;
 }
+
+body {
+  font-size: 30px;
+}
