@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="hero d-flex align-items-center justify-content-evenly my-4">
+      <h1 class="heading m-0 fs-1 fw-bold w-25 text-primary">Converter currency</h1>
+      <img class="hero-arrow" src="./img/arrow.png" alt="arrow" width="100" height="80">
+      <img class="hero-img" src="./img/conventor.png" alt="conventor" width="220" height="220">
+    </div>
+
+    <form class="form d-flex justify-content-between mt-3" action="https://echo.htmlacademy.ru" method="post">
+      <div class="input-div">
+        <label class="form-label text-primary" for="dollar">$</label>
+        <input class="form-input border-primary bg-transparent" type="text" id="dollar" name="dollar" placeholder="100">
+
+        <button class="form-btn d-block border-primary bg-transparent ms-3 mt-3" type="submit">Convert</button>
+      </div>
+
+      <button class="form-change-btn" type="button"> <- -> </button>
+      <div class="input-div">
+        <label class="form-label text-primary" for="sum">So`m</label>
+        <input class="form-input border-primary bg-transparent" type="text" id="sum" name="sum" placeholder="1100000">
+      </div>
+
+    </form>
+  </div>
+
+
+
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
