@@ -8,6 +8,7 @@ var elCourse = 11000;
 var count = 1;
 var elText1 = document.querySelector(".form-label-1");
 var elText2 = document.querySelector(".form-label-2");
+var elClearBtn = document.querySelector(".clear-btn");
 
 
 
@@ -79,4 +80,8 @@ elBtn.addEventListener("click", function(evt){
   }
 
   elList.appendChild(newLi);
+})
+
+elClearBtn.addEventListener("click", (evt) => {
+  elList.innerHTML = ""
 })
